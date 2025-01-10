@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery 
-from plugins.helper.fonts import Fonts
+from plugins.helper.Heart import Fonts
 
 @Client.on_message(filters.private & filters.command(["font"]))
 async def style_buttons(c, m, cb=False):
