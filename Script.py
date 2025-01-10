@@ -34,7 +34,8 @@ class script(object):
     NEW_USER_TXT = """<b>#New_User
 
 ≈ ɪᴅ:- <code>{}</code>
-≈ ɴᴀᴍᴇ:- {}</b>"""
+≈ ɴᴀᴍᴇ:- {}
+≈ ʙᴏᴛ ɴᴀᴍᴇ:- @HeartFilter_bot</b>"""
 
     NEW_GROUP_TXT = """#New_Group
 
@@ -94,7 +95,10 @@ User - {}"""
 
 ᴛᴏ ᴄʜᴇᴄᴋ ɪғ ғsᴜʙ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴏʀ ɴᴏᴛ, ᴜsᴇ <code>/show_fsub</code></b>"""
 
-    ADMIC_TXT= """<b>
+    ADMIC_TXT= """<b>👋 ʜᴇʏ {},
+
+⚜️ ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ ꜰᴏʀ ᴀʟʟ ʙᴏᴛ ᴀᴅᴍɪɴꜱ ⇊
+
 /donate - To support the developer
 /shortlink - To set shortner
 /tutorial - To set tutorial video
