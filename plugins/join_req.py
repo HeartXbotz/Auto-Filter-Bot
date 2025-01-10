@@ -1,3 +1,4 @@
+# © Join Telegram: @Heartxbotz
 from pyrogram import Client, filters, enums
 from pyrogram.types import ChatJoinRequest
 from database.users_chats_db import db
