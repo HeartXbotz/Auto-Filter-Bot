@@ -35,21 +35,21 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002069400808'))
-URL = environ.get('URL', 'https://heart.botsfilesharing.workers.dev/')
+URL = environ.get('URL', 'https://filesharingbotz.koyeb.app/')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002393358982'))
-TUTORIAL = environ.get("TUTORIAL", "https://youtu.be/0c-i2Lol6LU")
-TUTORIAL2 = environ.get("TUTORIAL2", "https://youtu.be/GdaUbzxDTKs")
-TUTORIAL3 = environ.get("TUTORIAL3", "https://youtu.be/rddlpYLm0G0")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Get_Movie")
+TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/How_To_Get_Movie")
+TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/How_To_Get_Movie")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/45a270fc6a0a1c183c614.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "8c09653e5c38f84d1b76ad3197c5a023e53b494d")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "onepagelink.in")
-SHORTENER_API2 = environ.get("SHORTENER_API2", "0c8ebd63bfe9f67f9970b8767498ff60316b9b03")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "tnshort.net")
-SHORTENER_API3 = environ.get("SHORTENER_API3", "9c5a6c96077a1b499d8f953331221159383eb434")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "omegalinks.in")
+SHORTENER_API = environ.get("SHORTENER_API", "69bfe45fc35b6b3178b4b95de9ef1db14a746ce7")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "Modijiurl.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "69bfe45fc35b6b3178b4b95de9ef1db14a746ce7")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "Modijiurl.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "69bfe45fc35b6b3178b4b95de9ef1db14a746ce7")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "Modijiurl.com")
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 
