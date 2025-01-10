@@ -1,3 +1,4 @@
+# © Join Telegram: @Heartxbotz
 import datetime
 import pytz
 from motor.motor_asyncio import AsyncIOMotorClient
