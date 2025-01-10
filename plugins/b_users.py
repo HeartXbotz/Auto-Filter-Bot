@@ -1,3 +1,5 @@
+# © Join Telegram: @Heartxbotz
+
 from pyrogram.raw.types import UpdateBotStopped
 from pyrogram.types import Update
 from database.users_chats_db import db
