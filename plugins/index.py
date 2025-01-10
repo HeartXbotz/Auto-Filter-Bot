@@ -1,3 +1,4 @@
+# © Join Telegram: @Heartxbotz
 import asyncio
 from pyrogram import Client, filters, enums
 from info import ADMINS, CHANNELS
