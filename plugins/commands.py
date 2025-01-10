@@ -1,4 +1,4 @@
-# © TechifyBots (Rahul)
+# © Join Telegram: @Heartxbotz
 import requests
 import random
 import asyncio
@@ -227,7 +227,7 @@ async def start(client:Client, message):
         name = files.file_name
         size = get_size(files.file_size)
         btn = [[
-            InlineKeyboardButton("✅ ꜰɪʟᴇ ✅", url=link),
+            InlineKeyboardButton("✅ ᴅᴏᴡɴʟᴏᴀᴅ ✅", url=link),
             InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ⁉️", url=settings['tutorial'])
         ],[
             InlineKeyboardButton("😁 ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ - ᴅɪʀᴇᴄᴛ ꜰɪʟᴇꜱ 😁", callback_data='buy_premium')
