@@ -421,7 +421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "features":
         buttons = [[ 
             InlineKeyboardButton('⚜️ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ', callback_data='admic'),
-            InlineKeyboardButton('ꜰᴏʀᴄᴇ ꜱᴜʙ 〽️', callback_data='fsub')
+            InlineKeyboardButton('ꜰᴏʀᴄᴇ ꜱᴜʙ 〽️', callback_data='forsub')
         ], [
             InlineKeyboardButton('📸 ɪᴍᴀɢᴇ', callback_data='heart'),
             InlineKeyboardButton('ꜰᴏɴᴛ 🆎️', callback_data='font')    
@@ -486,13 +486,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data == "fsub":
+    elif query.data == "forsub":
         buttons = [[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)  
         await query.message.edit_text(
-            text=script.FSUB_TXT,
+            text=script.FORSUB_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
