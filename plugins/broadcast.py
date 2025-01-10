@@ -1,4 +1,4 @@
-# © Join Telegram: @Heartxbotz
+# © Join Telegram : @Heartxbotz
 
 from pyrogram import Client, filters
 import datetime
