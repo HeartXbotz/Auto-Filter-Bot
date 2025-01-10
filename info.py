@@ -22,7 +22,7 @@ API_ID = int(environ.get('API_ID', '22977776'))
 API_HASH = environ.get('API_HASH', '2ac7223d720bdeec757cbc88ced57224')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7041695823:AAHSLcMgPh9iYDlghYXOKBoG75WaUiFhAUw')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6762558871').split()]
-USERNAME = environ.get('USERNAME', 'https://telegram.me/TechifyGuru')
+USERNAME = environ.get('USERNAME', 'https://telegram.me/heartfilter_bot')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002391269521'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002069400808').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jeevanantham8157:1055221@itzheartbot1.63xqs.mongodb.net/?retryWrites=true&w=majority&appName=Itzheartbot1")
@@ -35,7 +35,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002069400808'))
-URL = environ.get('URL', '')
+URL = environ.get('URL', 'https://heart.botsfilesharing.workers.dev/')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
@@ -56,7 +56,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 # languages search
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
-auth_channel = environ.get('AUTH_CHANNEL', ''-1002159407577')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002159407577')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ''))
 
