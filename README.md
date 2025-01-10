@@ -1,5 +1,5 @@
 <h1 align="center">
- <b><a href="https://youtu.be/LMbASrirBHg" target="/blank">Auto-Filter-Bot</a>
+ <b><a href="https://t.me/HeartXBotz" target="/blank">ʜᴇᴀʀᴛ ꜰɪʟᴛᴇʀ ꜰᴀꜱᴛ ʙᴏᴛ</a>
 </h1>
 
 <p align="center">🩷 Thanks for Being Here 🩷</p>
@@ -41,7 +41,7 @@
 - Media to link feature.
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway
-- [Developer support](https://telegram.me/TechifySupport) 24x7
+- [Developer support](https://t.me/TGHelpingGroup) 24x7
 - And many more... 
 </details>
 
@@ -50,15 +50,15 @@
 
 <details><summary>Tap On Me For Environment Variable</summary>
 
-- `API_ID` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
-- `API_HASH` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
-- `BOT_TOKEN` : Get From [BotFather](https://youtu.be/aJILCCXfNVM).
+- `API_ID` : Get From [Here]
+- `API_HASH` : Get From [Here]
+- `BOT_TOKEN` : Get From [BotFather]
 - `ADMINS` : Your Telegram ID
 - `USERNAME` : Your Telegram Username
 - `LOG_CHANNEL` : Your Log channel ID.
 - `CHANNELS` : Your Database channels ID.
-- `DATABASE_URI` : Mongodb [Database](https://youtu.be/pMJpHoiu1go)
-- `DATABASE_URI2` : Mongodb [Database](https://youtu.be/pMJpHoiu1go)
+- `DATABASE_URI` : Mongodb [Database]
+- `DATABASE_URI2` : Mongodb [Database]
 - `LOG_API_CHANNEL` : Your Log channel ID.
 - `BIN_CHANNEL` : Your File To Link Bot bin channel ID.
 - `URL` : Your File 2 Link Bot app Url
@@ -121,20 +121,16 @@ deletefiles - To delete files by their names
 <details><summary>Tap On Me For Credit</summary>
 
 
-💝 Credit Goes To [TechifyBots](https://github.com/TechifyBots)
+💝 Credit Goes To [HeartXBotz]
 
 💘 Base Repo Credit [Eva Maria](https://telegram.me/TeamEvamaria)
 
-💖 [Silicon](https://github.com/Silicon-Developer) for web app feature.
-</details>
-
 ### 💕 CONTACT DEVELOPER
 
-- [Rahul](https://telegram.me/TechifySupport)
+- [Rahul](https://telegram.me/heart_thieft)
 
 ### ☕ BUY ME A COFFEE
-- [PayPal](https://paypal.me/RahulReviews)
-- [UPI](https://TechifyBots.github.io/Donate)
+- [UPI]()
 
 ### 📌 NOTE
 
