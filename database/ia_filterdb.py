@@ -1,3 +1,4 @@
+# © Join Telegram: @Heartxbotz
 import logging
 from struct import pack
 import re
