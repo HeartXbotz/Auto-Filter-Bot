@@ -1,3 +1,5 @@
+# © Join Telegram: @Heartxbotz
+
 import re
 import logging
 from pyrogram import Client, filters
