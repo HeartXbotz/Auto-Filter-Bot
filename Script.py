@@ -10,7 +10,7 @@ class script(object):
     
     HELP_TXT = """<b><i>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</i></b>"""
     
-    CODEXBOTS = """<b><i>/upload - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
+    IMG_TXT = """<b><i>/upload - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
 
 ɴᴏᴛᴇ - ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋ ɪɴ ᴘᴍ</i></b>"""
  
@@ -82,6 +82,46 @@ User - {}"""
     FONT_TXT= """<b><i>ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴍᴏᴅᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜰᴏɴᴛs sᴛʏʟᴇ.</i></b>
 
 <code>/font hi how are you</code>"""
+
+    FSUB_TXT= """<b><i>• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ 😗
+• ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ Gʀᴏᴜᴘ  😉
+• sᴇɴᴅ /fsub ʏᴏᴜʀ_ᴛᴀʀɢᴇᴛ_ᴄʜᴀᴛ_ɪᴅ
+ᴇx: <code>/fsub -1004646464646</code>
+
+ɴᴏᴡ ɪᴛ's ᴅᴏɴᴇ.ɪ ᴡɪʟʟ ᴄᴏᴍᴘᴇʟ ʏᴏᴜʀ ᴜsᴇʀs ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ, ᴀɴᴅ I ᴡɪʟʟ ɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ғɪʟᴇs ᴜɴᴛɪʟ ʏᴏᴜʀ ᴜsᴇʀs ᴊᴏɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ᴄʜᴀɴɴᴇʟ.
+
+ᴛᴏ ᴅɪsᴀʙʟᴇ ғsᴜʙ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ, sɪᴍᴘʟʏ sᴇɴᴅ <code>/del_fsub</code>
+
+ᴛᴏ ᴄʜᴇᴄᴋ ɪғ ғsᴜʙ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴏʀ ɴᴏᴛ, ᴜsᴇ <code>/show_fsub</code></b>"""
+
+    FONT_TXT= """<b>
+/donate - To support the developer
+/shortlink - To set shortner
+/tutorial - To set tutorial video
+/caption - To set custom file caption
+/template - To set custom IMDB template
+/fsub - To set your force subscribe channel
+/nofsub - To remove force sub channel
+/ginfo - To check your groupddetails
+/index - To index files in bot
+/upload - To convert media into link
+/font - To change font style
+/shortlink2 - To set shortner for 2nd verify
+/shortlink3 - To set shortner for 3rd verify
+/time2 - To set 2nd shortner verify time
+/time3 - To set 3rd shortner verify time
+/log - To set custom log channel
+/tutorial2 - To set 2nd shortner tutorial video
+/tutorial3 - To set 3rd shortner tutorial video
+/addpremium - To add premium users
+/removepremium - To remove premium users
+/myplan - To check your current plan
+/plan - To check available plans
+/premiumuser - To get list of premium users
+/broadcast - To broadcast your message.
+/gbroadcast - To broadcast in groups.
+/deleteall - To delete all files from Database
+/deletefiles - To delete files by their names</b>"""
 
     PREMIUM_TEXT = """<b><i><blockquote>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs  ♻️</blockquote>
 
