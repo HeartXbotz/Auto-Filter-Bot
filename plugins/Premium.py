@@ -1,4 +1,4 @@
-# © TechifyBots (Rahul)
+# © Join Telegram: @Heartxbotz 
 import pytz
 import datetime
 import asyncio
