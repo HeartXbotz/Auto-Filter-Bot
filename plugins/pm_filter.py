@@ -508,10 +508,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
     elif query.data == "admic":
+        if query.from_user.id not in ADMINS:
+            return await query.answer("⚠️ ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀ ʙᴏᴛ ᴀᴅᴍɪɴ !", show_alert=True)        
         buttons = [[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)  
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ADMIC_TXT,
             reply_markup=reply_markup,
