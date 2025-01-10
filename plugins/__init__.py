@@ -1,3 +1,5 @@
+# © Join Telegram: @Heartxbotz
+
 from aiohttp import web
 from .route import routes
 from asyncio import sleep 
