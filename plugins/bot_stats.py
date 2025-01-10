@@ -1,3 +1,5 @@
+# © Join Telegram: @Heartxbotz
+
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong
@@ -21,7 +23,7 @@ async def save_group(bot, message):
             await bot.send_message(LOG_CHANNEL, script.NEW_GROUP_TXT.format(message.chat.title, message.chat.id, message.chat.username, group_link, total, user), disable_web_page_preview=True)  
             await db.add_chat(message.chat.id, message.chat.title)
             btn = [[
-                InlineKeyboardButton('🦸‍♀️  sᴜᴘᴘᴏʀᴛ  🦸‍♀️', url="https://telegram.me/TechifySupport")
+                InlineKeyboardButton('🦸‍♀️  sᴜᴘᴘᴏʀᴛ  🦸‍♀️', url="https://telegram.me/Heartxbotz")
             ]]
             reply_markup=InlineKeyboardMarkup(btn)
             await bot.send_message(
