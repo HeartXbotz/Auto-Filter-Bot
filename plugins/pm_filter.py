@@ -419,9 +419,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )      
     elif query.data == "features":
-        buttons = [[
-            InlineKeyboardButton('📸 ɪᴍᴀɢᴇ', callback_data='rahul'),
-            InlineKeyboardButton('🆎️ ꜰᴏɴᴛ', callback_data='font')    
+        buttons = [[ 
+            InlineKeyboardButton('⚜️ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ', callback_data='admic'),
+            InlineKeyboardButton('ꜰᴏʀᴄᴇ ꜱᴜʙ 〽️', callback_data='fsub')
+        ], [
+            InlineKeyboardButton('📸 ɪᴍᴀɢᴇ', callback_data='heart'),
+            InlineKeyboardButton('ꜰᴏɴᴛ 🆎️', callback_data='font')    
         ], [ 
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='start')
         ]] 
@@ -432,7 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data.startswith("techifybots"):
+    elif query.data.startswith("deletefiless"):
         ident, keyword = query.data.split("#")
         await query.message.edit_text(f"<b>Fᴇᴛᴄʜɪɴɢ Fɪʟᴇs ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {keyword} ᴏɴ DB... Pʟᴇᴀsᴇ ᴡᴀɪᴛ...</b>")
         files, total = await get_bad_files(keyword)
@@ -472,13 +475,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
              disable_web_page_preview=True,
              parse_mode=enums.ParseMode.HTML
          )
-    elif query.data == "rahul":
+    elif query.data == "heart":
         buttons = [[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)  
         await query.message.edit_text(
             text=script.CODEXBOTS,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+    elif query.data == "fsub":
+        buttons = [[
+            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)  
+        await query.message.edit_text(
+            text=script.FSUB_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -489,6 +503,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons) 
         await query.message.edit_text(
             text=script.FONT_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+    elif query.data == "admic":
+        buttons = [[
+            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)  
+        await query.message.edit_text(
+            text=script.ADMIC_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -745,7 +770,7 @@ async def auto_filter(client, msg, spoll=False):
                 await message.reply_text(cap + links + del_msg, parse_mode=enums.ParseMode.HTML, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
     else:
         if message.chat.id == SUPPORT_GROUP:
-            buttons = [[InlineKeyboardButton('✧ ᴛᴀᴋᴇ ꜰɪʟᴇ ꜰʀᴏᴍ ʜᴇʀᴇ ✧', url="https://telegram.me/TechifySupport")]]
+            buttons = [[InlineKeyboardButton('✧ ᴛᴀᴋᴇ ꜰɪʟᴇ ꜰʀᴏᴍ ʜᴇʀᴇ ✧', url="https://t.me/TGHelpingGroup")]]
             d = await message.reply(text=f"<b>{message.from_user.mention},</b>\n\n({total_results}) ʀᴇsᴜʟᴛ ᴀʀᴇ ꜰᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ [{search}]\n\n", reply_markup=InlineKeyboardMarkup(buttons))
             await asyncio.sleep(120)
             await message.delete()
