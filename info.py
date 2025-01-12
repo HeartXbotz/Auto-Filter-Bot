@@ -38,6 +38,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002323592481'))
 URL = environ.get('URL', 'https://filesharingbotz.koyeb.app/')
 
 # verify system vars
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',False))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002393358982'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Get_Movie")
