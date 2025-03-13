@@ -18,15 +18,15 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '22977776'))
-API_HASH = environ.get('API_HASH', '2ac7223d720bdeec757cbc88ced57224')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7041695823:AAHSLcMgPh9iYDlghYXOKBoG75WaUiFhAUw')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', ':')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6762558871').split()]
 USERNAME = environ.get('USERNAME', 'https://telegram.me/Heart_thieft')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002391269521'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002069400808').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jeevanantham8157:1055221@itzheartbot1.63xqs.mongodb.net/?retryWrites=true&w=majority&appName=Itzheartbot1")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://jeevanantham8157:1055221@itzheartbot1.63xqs.mongodb.net/?retryWrites=true&w=majority&appName=Itzheartbot1")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://:/?retryWrites=true&w=majority&appName=Itzheartbot1")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://:/?retryWrites=true&w=majority&appName=Itzheartbot1")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Itzheartbot1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002479542941'))
@@ -44,7 +44,7 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002393358982'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Get_Movie")
 TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/How_To_Get_Movie")
 TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/How_To_Get_Movie")
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/45a270fc6a0a1c183c614.jpg")
+VERIFY_IMG = environ.get("VERIFY_IMG", "")
 SHORTENER_API = environ.get("SHORTENER_API", "69bfe45fc35b6b3178b4b95de9ef1db14a746ce7")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "Modijiurl.com")
 SHORTENER_API2 = environ.get("SHORTENER_API2", "69bfe45fc35b6b3178b4b95de9ef1db14a746ce7")
