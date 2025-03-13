@@ -127,7 +127,7 @@ deletefiles - To delete files by their names
 
 ### 💕 CONTACT DEVELOPER
 
-- [Rahul](https://telegram.me/heart_thieft)
+- [Heart Thief](https://telegram.me/heartthieft)
 
 ### ☕ BUY ME A COFFEE
 - [UPI]()
