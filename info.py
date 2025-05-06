@@ -20,13 +20,13 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '22977776'))
 API_HASH = environ.get('API_HASH', '2ac7223d720bdeec757cbc88ced57224')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7041695823:AAHSLcMgPh9iYDlghYXOKBoG75WaUiFhAUw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7041695823:AAFucfS2J1rGYG5DdQa4Za3VwK7IydAzR-s')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6762558871').split()]
 USERNAME = environ.get('USERNAME', 'https://telegram.me/Heart_thieft')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002391269521'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002069400808').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://:/?retryWrites=true&w=majority&appName=Itzheartbot1")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://:/?retryWrites=true&w=majority&appName=Itzheartbot1")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jeevanantham8157:1055221@itzheartbot1.63xqs.mongodb.net/?retryWrites=true&w=majority&appName=Itzheartbot1")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://jeevanantham8157:1055221@itzheartbot1.63xqs.mongodb.net/?retryWrites=true&w=majority&appName=Itzheartbot1")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Itzheartbot1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002479542941'))
